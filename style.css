@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+.title{
+    font-size: larger;
+}
 body{
 display: flex;
 justify-content: center;
@@ -35,11 +38,14 @@ form input{
 }
 .dropdown{
     display: flex;
+    margin-top: 2rem;
     
 }
 form i{
     margin-top: 5vh;
     align-items: center;
+    padding-right: 50px;
+    padding-bottom: 50px;
 }
 button{
     background-color: chartreuse;
@@ -54,4 +60,7 @@ button:hover{
     border-radius: 7rem;
     outline: none;
     border: 1px solid rgb(242, 239, 245);
+}
+.msg{
+    margin-top: 5rem;
 }
